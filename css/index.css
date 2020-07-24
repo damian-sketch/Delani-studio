@@ -22,7 +22,7 @@
   
 }
 
-.fullstop{
+.mouse{
   position: absolute;
   top: 90%;
   left: 50%;
@@ -92,4 +92,14 @@ h4{
   padding: 10px;
   padding-left: 20px;
   margin-top: -50px;
+}
+
+/*Portfolio image grid*/
+.portfolio{
+  box-sizing: border-box;
+  text-align: center;
+  margin-left: 30px;
+}
+.portfolio img{
+  margin: 10px;
 }
