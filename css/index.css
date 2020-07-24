@@ -14,13 +14,12 @@
   
 }
 
-.D{
+.logo{
   position: absolute;
   top: 30%;
   left: 50%;
   transform: translate(-50%, -50%);
-  border-radius: 70px 70px;
-  border: 1px solid white;
+  
 }
 
 .fullstop{
