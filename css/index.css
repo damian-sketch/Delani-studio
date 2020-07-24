@@ -37,6 +37,7 @@ h1{
 
 h4{
   font-size: 0.9em;
+  font-weight: bold;
 }
 
 .about{
@@ -102,4 +103,29 @@ h4{
 }
 .portfolio img{
   margin: 10px;
+}
+
+.contact {
+  margin-left: 60px;
+  margin-top: 10px;
+  position: relative;
+}
+
+input{
+  display: inline;
+  margin: 10px;
+  background: transparent;
+  
+  border: 1px solid white;
+}
+
+.form-group{
+  color:white;
+}
+
+.form-group{
+  position: relative;
+  top: 10%;
+  left: 70%;
+  transform: translate(-50%, -100%);
 }
