@@ -1,0 +1,41 @@
+/* Container holding image and text*/
+.welcome{
+  position: relative;
+  text-align: center;
+  color: white;
+  margin-top: 10px;
+}
+
+ .text{
+  position: absolute;
+  top:63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
+}
+
+.D{
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 70px 70px;
+  border: 1px solid white;
+}
+
+.fullstop{
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 70px 70px;
+  border: 1px solid white;
+}
+
+h1{
+  font-size: 1.8em;
+}
+
+h4{
+  font-size: 0.9em;
+}
