@@ -42,7 +42,7 @@ h4{
 
 .about{
   text-align: center;
-  padding: 5px;
+  padding: 9px;
 }
 
 .services{
@@ -58,4 +58,39 @@ h4{
   left: 50%;
   transform: translate(-50%, -50%);
   
+}
+
+.whatwedo{
+  width: 1100px;
+  height: 500px;
+  padding: 10px;
+ 
+  text-align: center;
+}
+
+.design{
+ 
+  width: 300px;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.development{
+  margin-top: -20px;
+  
+  width: 300px;
+  float: left;
+  margin-left: 70px;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.product{
+  
+  float: right;
+  width: 300px;
+  padding: 10px;
+  padding-left: 20px;
+  margin-top: -50px;
 }
