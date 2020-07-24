@@ -39,3 +39,8 @@ h1{
 h4{
   font-size: 0.9em;
 }
+
+.about{
+  text-align: center;
+  padding: 5px;
+}
