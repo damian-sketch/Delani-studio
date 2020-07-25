@@ -5,7 +5,7 @@ I recreated a responsive landing page for a team of designers and developers usi
 ## Setup/Installation Requirements
 * Clone the repository into your desktop
 * Open the "index.html" file with your web browser.
-* To view the live link, visit [Portfolio on github pages]()
+* To view the live link, visit [Delani Studio on github pages](https://damian-sketch.github.io/Delani-studio/)
 
 ## Technologies Used
 * HTML
