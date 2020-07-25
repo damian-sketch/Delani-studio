@@ -149,3 +149,12 @@ input{
   top: -250px;
   
 }
+
+.footer{
+  text-align: center;
+  
+}
+
+.footer h3{
+  font-size: 0.9em;
+}
