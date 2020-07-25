@@ -158,3 +158,16 @@ input{
 .footer h3{
   font-size: 0.9em;
 }
+
+.design2{
+  display: none;
+  width: 300px;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+.submit{
+  background-color: teal;
+  color: white;
+}
