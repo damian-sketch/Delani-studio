@@ -110,6 +110,9 @@ h4{
   margin-top: 5px;
   position: relative;
   text-align: center;
+  
+  height: 310px;
+
 }
 
 input{
@@ -126,9 +129,10 @@ input{
 
 .form-group{
   position: relative;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -120%);
+  top: -290px;
+  left: 5px;
+  
+ 
 }
 
 .message{
@@ -138,4 +142,10 @@ input{
 
 ::placeholder{
   color: white;
+}
+
+.socials{
+  position: relative;
+  top: -250px;
+  
 }
