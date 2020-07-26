@@ -97,6 +97,7 @@ h4{
 
 /*Portfolio image grid*/
 .portfolio{
+  border: 1px solid white;
   box-sizing: border-box;
   text-align: center;
   margin-left: 30px;
@@ -166,6 +167,26 @@ input{
   padding: 10px;
   padding-left: 20px;
 }
+
+
+.development2{
+  display: none;
+  width: 300px;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
+
+
+.product2{
+  display: none;
+  width: 300px;
+  float: left;
+  padding: 10px;
+  padding-left: 20px;
+}
+
 
 .submit{
   background-color: teal;

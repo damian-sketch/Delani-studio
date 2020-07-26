@@ -1,13 +1,15 @@
 $(document).ready(function(){
-  $(".design").click(function(){
-  $(".design1").hide();
-  $(".design2").show();
+  $(".design1, .design2").click(function(){
+    $(".design1, .design2").toggle();
 
-  $("p").click(function(){
-    $(".design2").hide();
-    $(".design1").show();
-  })
-  
- 
+  });
+  $(".development1, .development2").click(function(){
+    $(".development1, .development2").toggle();
+  });
+  $(".product1, .product2").click(function(){
+    $(".product1, .product2").toggle();
+
   });
 });
+
+  
