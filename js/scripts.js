@@ -32,5 +32,10 @@ $(document).ready(function() {
   });
   });
 
+
+  document.getElementById("mc-embedded-subscribe-form").reset(); 
 });
 
+function thanks(){
+  alert('Thank you for reaching out. We have received your message!');
+}
