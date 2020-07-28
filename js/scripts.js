@@ -36,6 +36,9 @@ $(document).ready(function() {
   document.getElementById("mc-embedded-subscribe-form").reset(); 
 });
 
+
+
 function thanks(){
-  alert('Thank you for reaching out. We have received your message!');
+  var name = document.getElementById("mce-FNAME").value;
+  alert('Thank you ' + name +' for reaching out. We have received your message!');
 }
