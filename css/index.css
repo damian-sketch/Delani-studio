@@ -105,6 +105,8 @@ h4{
   margin-left: 30px;
 }
 
+
+
 .image{
   width: 25%;
   position: relative;
@@ -129,6 +131,23 @@ h4{
 
 }
 
+.fname{
+  float:left;
+  margin-left: 220px;
+}
+
+.email{
+  float:left;
+  margin-left: 60px;
+}
+
+input#mce-MMERGE2{
+  height: 100px;
+}
+
+input#mc-embedded-submit{
+  color:white;
+}
 
 #mc_embed_signup{
   position: relative;
