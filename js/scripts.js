@@ -22,16 +22,13 @@ $(document).ready(function() {
 
   $('.image').each(function(){
     $('.image').hover(function() {
-      $(this).stop().animate({opacity:.4},200);
-      $('.projo').each(function(){
-        $('.projo').fadeIn();
-      });  
+      $(this).stop().animate({opacity:.4},200),
+      $('.projo').toggle();
+        
 
   }, function() {
       $(this).stop().animate({opacity:1},500)
-      $('.projo').each(function(){
-        $('.projo').fadeOut();
-      });
+      
   });
   });
 
