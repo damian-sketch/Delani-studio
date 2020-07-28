@@ -129,34 +129,18 @@ h4{
 
 }
 
-input{
-  display: inline;
-  margin: 3px;
-  background: transparent;
-  
-  border: 1px solid white;
-}
 
-.form-group{
-  color:white;
-}
-
-.form-group{
+#mc_embed_signup{
   position: relative;
   top: -290px;
   left: 5px;
-  
- 
-}
-
-.message{
-  
-  height: 140px;
-}
-
-::placeholder{
   color: white;
 }
+input{
+  border: 1px solid white;
+  background: transparent;
+}
+
 
 .socials{
   position: relative;
