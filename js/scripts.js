@@ -10,6 +10,6 @@ $(document).ready(function(){
     $(".product1, .product2").toggle();
 
   });
+
 });
 
-  
