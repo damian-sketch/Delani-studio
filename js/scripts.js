@@ -13,3 +13,27 @@ $(document).ready(function(){
 
 });
 
+$(document).ready(function() {
+  $('.projo').hide();
+  $('.image').animate({
+      opacity:1
+      
+  });
+
+  $('.image').each(function(){
+    $('.image').hover(function() {
+      $(this).stop().animate({opacity:.4},200);
+      $('.projo').each(function(){
+        $('.projo').fadeIn();
+      });  
+
+  }, function() {
+      $(this).stop().animate({opacity:1},500)
+      $('.projo').each(function(){
+        $('.projo').fadeOut();
+      });
+  });
+  });
+
+});
+
